@@ -1,0 +1,23 @@
+added the following to .xinitrc:
+[[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
+exec i3
+
+added the folowing to /etc/X11/xorg.conf.d/90-monitor.conf
+Section "Monitor"
+	Identifier	"<default monitor>"
+	DisplaySize	294.3 165.5		#In millimeters	
+EndSection
+
+added the following to ~/.Xresources
+
+Xft.antialias: true
+Xft.hinting: true
+Xft.rgba: rgb
+Xft.hintstyle: hintfull
+Xft.dpi: 277
+*dpi: 277
+
+
+
+
+
