@@ -9,8 +9,8 @@
 ;=====================================================
 
 [colors]
-;background = ${xrdb:color0}
 background = #00000000
+;background = #00000000
 background-alt = #444
 foreground = ${xrdb:color7}
 ;foreground = #dfdfdf
@@ -34,7 +34,7 @@ height = 3%
 ;offset-y = 1%
 ;radius = 6.0
 fixed-center = false
-
+dpi = 277
 background = ${colors.background}
 foreground = ${colors.foreground}
 
@@ -50,15 +50,17 @@ padding-right = 0
 module-margin-left = 1
 module-margin-right = 2
 
-font-0 = mono:size=20;1
-font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
-font-2 = Wuncon Siji:pixelsize=9;1
+font-0 = mono:size=8;1
+font-1 = FontAwesome:size=8;0
+font-2 = Noto Sans Hebrew:size=8;0 
+font-3 = Noto Sans CJK JP:size=8;0 
+
 
 #modules-left = i3
 modules-left = i3 mpd
 #modules-center = mpd
 #modules-right = volume wlan eth battery temperature date
-modules-right = filesystem volume wlan eth battery temperature date
+modules-right = filesystem volume wlan battery temperature Ikeyboard date
 
 tray-position = right
 tray-padding = 0
@@ -80,15 +82,23 @@ scroll-down = i3wm-wsprev
 type = internal/xwindow
 label = %title:0:30:...%
 
+[module/Ikeyboard]
+type = custom/script
+exec = ~/.config/polybar/scripts/keyboard-language.sh
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
+format-prefix-underline = ${colors.secondary}
+format-underline = ${colors.secondary}
+interval = 0.1
 [module/xkeyboard]
 type = internal/xkeyboard
 blacklist-0 = num lock
 
-format-prefix = " "
+format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
 format-prefix-underline = ${colors.secondary}
 
-label-layout = %layout%
+label-layout = %name%
 label-layout-underline = ${colors.secondary}
 
 label-indicator-padding = 2
@@ -102,7 +112,7 @@ interval = 25
 
 mount-0 = /
 
-label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %percentage_used%%
+label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %free%
 label-unmounted = %mountpoint% not mounted
 label-unmounted-foreground = ${colors.foreground-alt}
 
@@ -251,11 +261,11 @@ format-disconnected-underline = ${self.format-connected-underline}
 label-disconnected = no wifi
 label-disconnected-foreground = ${colors.foreground-alt}
 
-ramp-signal-0 = 
-ramp-signal-1 = 
-ramp-signal-2 = 
-ramp-signal-3 = 
-ramp-signal-4 = 
+ramp-signal-0 = 
+ramp-signal-1 = 
+ramp-signal-2 = 
+ramp-signal-3 = 
+ramp-signal-4 = 
 ramp-signal-foreground = ${colors.foreground-alt}
 
 [module/eth]
@@ -280,20 +290,20 @@ label-disconnected-foreground = ${colors.foreground-alt}
 type = internal/date
 interval = 5
 
-date = " %a, %b %d, %Y"
+;date = " %a, %b %d, %Y"
 ;date-alt = " %a, %b %d, %Y at %I:%M%p"
-;date-alt = " %Y-%m-%d"
+date = " %Y-%m-%d"
 
-time = " at %I:%M%p"
+;time = " at %I:%M%p"
 ;time-alt = %H:%M:%S
-;time-alt = %H:%M:%S
+time = %H:%M:%S
 
-format-prefix = 
+format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = ${xrdb:color12}
 ;format-underline = #0a6cf5
 
-label = %date% %time%
+label = "%date% %time% "
 
 [module/volume]
 type = internal/volume
@@ -302,7 +312,7 @@ format-volume = <label-volume> <bar-volume>
 label-volume = VOL
 label-volume-foreground = ${root.foreground}
 
-format-muted-prefix = " "
+format-muted-prefix = " "
 format-muted-foreground = ${colors.foreground-alt}
 label-muted = sound muted
 
@@ -337,18 +347,23 @@ format-charging-underline = ${xrdb:color3}
 format-discharging = <ramp-capacity> <label-discharging>
 format-discharging-underline = ${self.format-charging-underline}
 
-format-full-prefix = " "
-format-full-prefix-foreground = ${colors.foreground-alt}
+format-full-prefix = " " 
+format-full-prefix-foreground = ${xrdb:color3}
 format-full-underline = ${self.format-charging-underline}
 
-ramp-capacity-0 = 
-ramp-capacity-1 = 
-ramp-capacity-2 = 
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+ramp-capacity-4 = 
 ramp-capacity-foreground = ${colors.foreground-alt}
 
-animation-charging-0 = 
-animation-charging-1 = 
-animation-charging-2 = 
+
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-3 = 
+animation-charging-4 = 
 animation-charging-foreground = ${colors.foreground-alt}
 animation-charging-framerate = 750
 
@@ -367,9 +382,11 @@ label = %temperature%
 label-warn = %temperature%
 label-warn-foreground = ${colors.secondary}
 
-ramp-0 = 
-ramp-1 = 
-ramp-2 = 
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
+ramp-3 = 
+ramp-4 = 
 ramp-foreground = ${colors.foreground-alt}
 
 [module/powermenu]
