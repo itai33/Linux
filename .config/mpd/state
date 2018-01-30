@@ -1,0 +1,42 @@
+sw_volume: 100
+audio_device_state:1:mpd alsamixer-output
+audio_device_state:1:toggle_visualizer
+state: play
+current: 7
+time: 20.990000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:radwimps/君の名は。/01 夢灯籠.mp3
+1:radwimps/君の名は。/02 三葉の通学.mp3
+2:radwimps/君の名は。/03 糸守高校.mp3
+3:radwimps/君の名は。/04 はじめての、東京.mp3
+4:radwimps/君の名は。/05 憧れカフェ.mp3
+5:radwimps/君の名は。/06 奥寺先輩のテーマ.mp3
+6:radwimps/君の名は。/07 ふたりの異変.mp3
+7:radwimps/君の名は。/08 前前前世 (Movie Ver.).mp3
+8:radwimps/君の名は。/09 御神体.mp3
+9:radwimps/君の名は。/10 デート.mp3
+10:radwimps/君の名は。/11 秋祭り.mp3
+11:radwimps/君の名は。/12 記憶を呼び起こす瀧.mp3
+12:radwimps/君の名は。/13 飛騨探訪.mp3
+13:radwimps/君の名は。/14 消えた町.mp3
+14:radwimps/君の名は。/15 図書館.mp3
+15:radwimps/君の名は。/16 旅館の夜.mp3
+16:radwimps/君の名は。/17 御神体へ再び.mp3
+17:radwimps/君の名は。/18 口噛み酒トリップ.mp3
+18:radwimps/君の名は。/19 作戦会議.mp3
+19:radwimps/君の名は。/20 町長説得.mp3
+20:radwimps/君の名は。/21 三葉のテーマ.mp3
+21:radwimps/君の名は。/22 見えないふたり.mp3
+22:radwimps/君の名は。/23 かたわれ時.mp3
+23:radwimps/君の名は。/24 スパークル (Movie Ver.).mp3
+24:radwimps/君の名は。/25 デート2.mp3
+25:radwimps/君の名は。/26 なんでもないや (Movie Edit).mp3
+26:radwimps/君の名は。/27 なんでもないや (Movie Ver.).mp3
+playlist_end
