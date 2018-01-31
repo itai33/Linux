@@ -39,3 +39,101 @@ Jan 30 02:40 : client: [0] opened from 127.0.0.1:46432
 Jan 30 02:40 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
 Jan 30 02:40 : client: [0] closed
 Jan 30 02:40 : player: played "radwimps/君の名は。/08 前前前世 (Movie Ver.).mp3"
+Jan 30 02:54 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 30 02:54 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 30 02:54 : client: [0] opened from 127.0.0.1:46594
+Jan 30 02:54 : client: [1] opened from 127.0.0.1:46596
+Jan 30 02:55 : client: [1] closed
+Jan 30 02:55 : client: [0] closed
+Jan 30 02:55 : exception: "mpd alsamixer-output" [alsa] failed to play: snd_pcm_writei() failed: Broken pipe
+Jan 30 02:55 : player: played "radwimps/君の名は。/08 前前前世 (Movie Ver.).mp3"
+Jan 30 02:56 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 30 02:56 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 30 02:56 : client: [0] opened from 127.0.0.1:57778
+Jan 30 02:56 : client: [0] closed
+Jan 30 02:56 : client: [1] opened from 127.0.0.1:57780
+Jan 30 02:56 : client: [2] opened from 127.0.0.1:57782
+Jan 30 02:57 : client: [1] closed
+Jan 30 02:57 : client: [3] opened from 127.0.0.1:57784
+Jan 30 02:57 : client: [3] closed
+Jan 30 02:57 : client: [4] opened from 127.0.0.1:57786
+Jan 30 02:59 : client: [4] closed
+Jan 30 02:59 : client: [5] opened from 127.0.0.1:57788
+Jan 30 02:59 : client: [5] closed
+Jan 30 02:59 : client: [6] opened from 127.0.0.1:57790
+Jan 30 03:00 : client: [6] closed
+Jan 30 03:00 : client: [7] opened from 127.0.0.1:57792
+Jan 30 03:00 : client: [7] closed
+Jan 30 03:00 : client: [8] opened from 127.0.0.1:57794
+Jan 30 03:00 : client: [8] closed
+Jan 30 03:00 : client: [9] opened from 127.0.0.1:57796
+Jan 30 03:00 : client: [9] closed
+Jan 30 03:00 : client: [10] opened from 127.0.0.1:57798
+Jan 30 03:00 : client: [10] closed
+Jan 30 03:00 : client: [11] opened from 127.0.0.1:57800
+Jan 30 03:00 : client: [11] closed
+Jan 30 03:00 : client: [12] opened from 127.0.0.1:57802
+Jan 30 03:01 : client: [12] closed
+Jan 30 03:01 : client: [13] opened from 127.0.0.1:57804
+Jan 30 03:01 : client: [13] closed
+Jan 30 03:01 : client: [14] opened from 127.0.0.1:57806
+Jan 30 03:04 : client: [14] closed
+Jan 30 03:04 : client: [15] opened from 127.0.0.1:57930
+Jan 30 03:04 : client: [15] closed
+Jan 30 03:04 : client: [16] opened from 127.0.0.1:57932
+Jan 30 03:04 : client: [17] opened from 127.0.0.1:57934
+Jan 30 03:04 : client: [17] closed
+Jan 30 03:04 : client: [18] opened from 127.0.0.1:57936
+Jan 30 03:04 : client: [18] closed
+Jan 30 03:04 : client: [16] closed
+Jan 30 03:04 : client: [19] opened from 127.0.0.1:57938
+Jan 30 03:04 : client: [19] closed
+Jan 30 03:04 : client: [20] opened from 127.0.0.1:57940
+Jan 30 03:05 : client: [20] closed
+Jan 30 03:05 : client: [21] opened from 127.0.0.1:57942
+Jan 30 03:05 : client: [21] closed
+Jan 30 03:05 : client: [22] opened from 127.0.0.1:57944
+Jan 30 03:05 : client: [23] opened from 127.0.0.1:57946
+Jan 30 03:05 : client: [23] closed
+Jan 30 03:05 : client: [24] opened from 127.0.0.1:57948
+Jan 30 03:05 : client: [24] closed
+Jan 30 03:05 : client: [25] opened from 127.0.0.1:57950
+Jan 30 03:05 : client: [25] closed
+Jan 30 03:05 : client: [26] opened from 127.0.0.1:57952
+Jan 30 03:05 : client: [26] closed
+Jan 30 03:05 : client: [27] opened from 127.0.0.1:57954
+Jan 30 03:05 : client: [27] closed
+Jan 30 03:05 : client: [28] opened from 127.0.0.1:57956
+Jan 30 03:05 : client: [28] closed
+Jan 30 03:05 : client: [29] opened from 127.0.0.1:57958
+Jan 30 03:05 : client: [29] closed
+Jan 30 03:05 : client: [30] opened from 127.0.0.1:57960
+Jan 30 03:05 : client: [30] closed
+Jan 30 03:05 : client: [31] opened from 127.0.0.1:57962
+Jan 30 03:05 : client: [31] closed
+Jan 30 03:05 : client: [32] opened from 127.0.0.1:57964
+Jan 30 03:05 : client: [32] closed
+Jan 30 03:05 : client: [33] opened from 127.0.0.1:57966
+Jan 30 03:05 : client: [33] closed
+Jan 30 03:05 : client: [34] opened from 127.0.0.1:57968
+Jan 30 03:05 : client: [34] closed
+Jan 31 12:45 : client: [22] closed
+Jan 31 12:45 : client: [35] opened from 127.0.0.1:57988
+Jan 31 12:45 : client: [35] closed
+Jan 31 12:45 : client: [36] opened from 127.0.0.1:57990
+Jan 31 12:46 : client: [36] closed
+Jan 31 12:46 : client: [37] opened from 127.0.0.1:57992
+Jan 31 12:46 : client: [37] closed
+Jan 31 12:46 : client: [38] opened from 127.0.0.1:57994
+Jan 31 12:46 : client: [38] closed
+Jan 31 12:46 : client: [39] opened from 127.0.0.1:57996
+Jan 31 12:46 : client: [39] closed
+Jan 31 12:46 : client: [40] opened from 127.0.0.1:57998
+Jan 31 12:48 : client: [40] closed
+Jan 31 12:48 : client: [41] opened from 127.0.0.1:58000
+Jan 31 12:48 : client: [41] closed
+Jan 31 12:48 : client: [42] opened from 127.0.0.1:58002
+Jan 31 12:54 : client: [42] closed
+Jan 31 12:54 : client: [43] opened from 127.0.0.1:58004
+Jan 31 12:54 : client: [43] closed
+Jan 31 12:54 : client: [44] opened from 127.0.0.1:58006
